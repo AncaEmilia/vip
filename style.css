@@ -1,0 +1,98 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(251, 247, 241);
+    font-family: 'Bitter';
+}
+
+#header{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    align-items: center;
+}
+#about-text{
+    text-align: center;
+}
+
+#chapter1, #chapter2, #chapter3{
+    font-family: 'Dancing Script', cursive;
+    margin:  9vh 0vh 0vh 0vh;
+}
+#chapter4{
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(90deg,#fce5c8 0%, rgb(218, 255, 249) 100%);
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem rgba(13, 100, 93, 0.397);
+}
+.navbar h1 {
+    cursor: pointer;
+}
+
+
+#wish{
+    color:#1bbdaf;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+#exp1 {
+    color: rgb(216, 164, 140);
+    text-shadow: 1px 1px black;
+}
+#exp2 {
+    color: rgb(196, 37, 45);
+    text-shadow: 1px 1px black;
+}
+#exp3 {
+    color: rgb(228, 186, 186);
+    text-shadow: 1px 1px black;
+}
+#exp4 {
+    color: rgb(218, 86, 45);
+    text-shadow: 1px 1px black;
+}
+#exp5 {
+    color: rgb(241, 207, 169);
+    text-shadow: 1px 1px black;
+}
+
+.product {
+    background: linear-gradient(90deg,#fce5c8 0%,  rgb(218, 255, 249) 100%);
+    list-style-type: none;
+    box-shadow: 0.4rem 0.4rem rgba(13, 100, 93, 0.397);
+}
+
+li p{
+    margin-bottom: 0.5rem;
+}
+.btn {
+    background-color: #1bbdaf;
+    color: white;
+}
+
+#btn-footer{
+    background-color: #f9e7cc;
+    border-color: rgba(108, 153, 149, 0.822);
+}
+#btn-footer:hover {
+    background-color: #ffd5a2;
+    transition: all 0.5s;
+}
+
+
+hr {
+    border-top: 2px solid #085727;
+    opacity: 1;
+    width: 100%;
+    margin: 1rem 0rem 2rem 0rem;
+}
+#break{
+    border-top: 2px solid #085727;
+    opacity: 1;
+    width: 100%;
+    margin: 6vh 0vh 1vh 0vh;
+}
