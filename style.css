@@ -96,3 +96,29 @@ hr {
     width: 100%;
     margin: 6vh 0vh 1vh 0vh;
 }
+
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    cursor:text;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #chapter1, #chapter2, #chapter3{
+        margin:  2vh 0vh 0vh 0vh;
+    }
+    #break{
+        margin: 4vh 0vh 1vh 0vh;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+    i{
+        margin: 0px;
+    }
+  }
